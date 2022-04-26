@@ -14,15 +14,15 @@ import { useState } from "react";
 const choice = {
   rock: {
     name: "바위",
-    img: "process.env.PUBLIC_URL + /assets/rock.png",
+    img: `${process.env.PUBLIC_URL}/assets/rock.png`,
   },
   scissors: {
     name: "가위",
-    img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/scissors.png",
+    img: `${process.env.PUBLIC_URL}/assets/scissors.png`,
   },
   paper: {
     name: "보",
-    img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/paper.png",
+    img: `${process.env.PUBLIC_URL}/assets/paper.png`,
   },
 };
 
