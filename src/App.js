@@ -4,7 +4,7 @@ import "./App.css";
 import Box from "./components/box";
 import { useState } from "react";
 
-// 1. 박스 2개 (title, 사진, 결과)
+// 1. 박스 2개 생성 (title, 사진, 결과)
 // 2. 가위,바위,보 버튼
 // 3. 버튼을 클릭하면 클릭한 값이 박스에 보임
 // 4. 컴퓨터는 랜덤하게 아이템 선택이 된다.
