@@ -14,7 +14,7 @@ import { useState } from "react";
 const choice = {
   rock: {
     name: "바위",
-    img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/rock.png",
+    img: "{'process.env.PUBLIC_URL' + '/assets/rock.png'}",
   },
   scissors: {
     name: "가위",
