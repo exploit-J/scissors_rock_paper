@@ -13,15 +13,15 @@ import { useState } from "react";
 
 const choice = {
   rock: {
-    name: "Rock",
+    name: "바위",
     img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/rock.png",
   },
   scissors: {
-    name: "Scissors",
+    name: "가위",
     img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/scissors.png",
   },
   paper: {
-    name: "Paper",
+    name: "보",
     img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/paper.png",
   },
 };
@@ -39,13 +39,13 @@ function App() {
 
   const judgemnent = (user, computer) => {
     if (user.name == computer.name) {
-      return "tie";
-    } else if (user.name == "Rock")
-      return computer.name == "Scissors" ? "win" : "lose";
-    else if (user.name == "Scissors")
-      return computer.name == "Paper" ? "win" : "lose";
-    else if (user.name == "Paper")
-      return computer.name == "Rock" ? "win" : "lose";
+      return "비겼다!";
+    } else if (user.name == "바위")
+      return computer.name == "가위" ? "이겼다!" : "졌다..";
+    else if (user.name == "가위")
+      return computer.name == "보" ? "이겼다!" : "졌다..";
+    else if (user.name == "보")
+      return computer.name == "바위" ? "이겼다!" : "졌다..";
   };
   // 컴퓨터의 아이템 선택을 위해 choice변수의 key값을 배열로 가져옴(인덱스값 생성)
   const randomChoice = () => {
