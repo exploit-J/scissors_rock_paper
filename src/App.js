@@ -14,7 +14,7 @@ import { useState } from "react";
 const choice = {
   rock: {
     name: "Rock",
-    img: "https://exploit-j.github.io/scissors_rock_paper/assets/rock.png",
+    img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/rock.png",
   },
   scissors: {
     name: "Scissors",
@@ -22,7 +22,7 @@ const choice = {
   },
   paper: {
     name: "Paper",
-    img: "/assets/paper.png",
+    img: "https://exploit-j.github.io/scissors_rock_paper/public/assets/paper.png",
   },
 };
 
