@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/scissors_rock_paper/static/css/main.4da2d62d.css",
-    "main.js": "/scissors_rock_paper/static/js/main.4b3b2911.js",
+    "main.js": "/scissors_rock_paper/static/js/main.b9e651eb.js",
     "static/js/787.6f0037dd.chunk.js": "/scissors_rock_paper/static/js/787.6f0037dd.chunk.js",
     "index.html": "/scissors_rock_paper/index.html",
     "main.4da2d62d.css.map": "/scissors_rock_paper/static/css/main.4da2d62d.css.map",
-    "main.4b3b2911.js.map": "/scissors_rock_paper/static/js/main.4b3b2911.js.map",
+    "main.b9e651eb.js.map": "/scissors_rock_paper/static/js/main.b9e651eb.js.map",
     "787.6f0037dd.chunk.js.map": "/scissors_rock_paper/static/js/787.6f0037dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4da2d62d.css",
-    "static/js/main.4b3b2911.js"
+    "static/js/main.b9e651eb.js"
   ]
 }
