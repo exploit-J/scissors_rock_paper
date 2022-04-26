@@ -83,13 +83,22 @@ function App() {
       </div>
       <div className="second">
         <div className="play-button" onClick={() => play("scissors")}>
-          <img className="bottom-img" src="/assets/scissors.png" />
+          <img
+            className="bottom-img"
+            src={process.env.PUBLIC_URL + "/assets/scissors.png"}
+          />
         </div>
         <div className="play-button" onClick={() => play("rock")}>
-          <img className="bottom-img" src="/assets/rock.png" />
+          <img
+            className="bottom-img"
+            src={process.env.PUBLIC_URL + "/assets/rock.png"}
+          />
         </div>
         <div className="play-button" onClick={() => play("paper")}>
-          <img className="bottom-img" src="/assets/paper.png" />
+          <img
+            className="bottom-img"
+            src={process.env.PUBLIC_URL + "/assets/paper.png"}
+          />
         </div>
       </div>
     </div>
